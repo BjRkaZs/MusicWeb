@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Home Button -->
+    <form class="form-inline my-5 my-lg-0 mx-auto">
+        <div class="input-group">
+            <li class="nav-item">
+                <span class="input-group-text house-icon">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">
+                        <i class="bi bi-house"></i>
+                    </a>
+                </span>
+            </li>
+        </div>
+    </form>
+
+    <!-- Search Bar -->
+    <form class="form-inline my-5 my-lg-0 mx-auto">
+        <div class="input-group search-bar">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <span class="input-group-text search-icon">
+                <i class="bi bi-search"></i>
+            </span>
+        </div>
+    </form>
+
+    <!-- Right Side Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/signin" routerLinkActive="active">Sign In</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/signup" routerLinkActive="active">Sign Up</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Language</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Magyar</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="navbar.component.css">

@@ -1,0 +1,90 @@
+
+.navbar-nav, .navbar-toggler, .navbar-collapse {
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    list-style: none;
+}
+  
+
+.house-icon {
+    background-color: transparent;
+    color: #b0b0b0;
+    border: none;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+    padding-left: 40px;
+}
+
+.house-icon:hover {
+    color: white;
+}
+
+
+.search-bar input {
+    background-color: transparent;
+    border: 1px solid #b0b0b0;
+    border-radius: 20px;
+    color: #b0b0b0;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    width: 300px;
+}
+
+.search-bar input::placeholder {
+    color: #b0b0b0;
+    opacity: 0.8;
+}
+
+.search-bar input:hover,
+.search-bar input:focus {
+    border-color: white;
+    color: white;
+}
+
+.search-icon {
+    background-color: transparent;
+    color: #b0b0b0;
+    border: none;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+}
+
+.search-icon:hover {
+    color: white;
+}
+
+
+
+.nav-link {
+    color: #b0b0b0 !important;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #b0b0b0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
+}

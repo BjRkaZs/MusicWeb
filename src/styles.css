@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: #1db954;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1ed760;
+  }
+
+  .navbar {
+    background-color: #1c1c1c;
+  }
+  
+  input, textarea, select, button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  input:focus, textarea:focus, select:focus, button:focus {
+    background-color: #444;
+    border-color: #1db954;
+  }
+  
+  
