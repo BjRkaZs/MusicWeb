@@ -9,6 +9,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import { FpassComponent } from './fpass/fpass.component';
+import { FormsModule } from '@angular/forms';
+import { provideHttpClient } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -17,14 +21,16 @@ import { HomeComponent } from './home/home.component';
     ProfileComponent,
     SigninComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    FpassComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

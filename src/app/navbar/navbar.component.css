@@ -1,4 +1,3 @@
-
 .navbar-nav, .navbar-toggler, .navbar-collapse {
     padding: 0 20px;
 }
@@ -19,7 +18,7 @@ li {
     color: #b0b0b0;
     border: none;
     transition: color 0.3s ease;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-left: 40px;
 }
 
@@ -28,13 +27,13 @@ li {
 }
 
 
-.search-bar input {
+/* .search-bar input {
     background-color: transparent;
     border: 1px solid #b0b0b0;
     border-radius: 20px;
     color: #b0b0b0;
     transition: border-color 0.3s ease, color 0.3s ease;
-    width: 300px;
+    width: 400px;
 }
 
 .search-bar input::placeholder {
@@ -59,7 +58,7 @@ li {
 .search-icon:hover {
     color: white;
 }
-
+ */
 
 
 .nav-link {

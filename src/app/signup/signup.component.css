@@ -16,6 +16,11 @@
     max-width: 400px;
 }
 
+.form-container p,
+.form-container button {
+  margin-top: 20px;
+}
+
 .btn-primary {
     border-radius: 50px;
     background-color: #1ed760;
@@ -46,3 +51,23 @@ input.form-control:focus {
     outline: none;
     background-color: transparent !important;
 }
+
+p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p a{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p a:hover{
+    color: #1ed760;
+  }

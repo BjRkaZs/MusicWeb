@@ -1,0 +1,16 @@
+<div class="search-container" [ngClass]="{'shrink': isShrinked}">
+    <input
+        type="text"
+        class="searchbar"
+        placeholder="Search..."
+        [(ngModel)]="searchQuery"
+        (keyup.enter)="shrinkSearchBar()"
+        (input)="checkSearchText()"
+    />
+    <span class="search-icon" (click)="shrinkSearchBar()">
+        <i class="bi bi-search"></i>
+    </span>
+</div>
+
+
+  

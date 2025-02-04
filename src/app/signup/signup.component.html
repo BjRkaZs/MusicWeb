@@ -3,18 +3,26 @@
         <h2 class="text-center text-white">Sign Up</h2>
         <form>
           <div class="mb-3">
+            <label for="uname" class="form-label text-white">User Name</label>
+            <input type="text" [(ngModel)]="regModel.uname" class="form-control" id="uname" placeholder="Enter user name">
+          </div>
+          <div class="mb-3">
             <label for="email" class="form-label text-white">Email Address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email">
+            <input type="email" [(ngModel)]="regModel.email" class="form-control" id="email" placeholder="Enter email">
           </div>
           <div class="mb-3">
             <label for="password" class="form-label text-white">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter password">
+            <input type="password" [(ngModel)]="regModel.password" class="form-control" id="password" placeholder="Enter password">
           </div>
           <div class="mb-3">
             <label for="confirmPassword" class="form-label text-white">Confirm Password</label>
-            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password">
+            <input type="password" [(ngModel)]="regModel.confirmPassword" class="form-control" id="confirmPassword" placeholder="Confirm password">
           </div>
-          <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+          <button (click)="register()" type="submit" class="btn btn-primary w-100">Sign Up</button>
         </form>
+
+        <p>Already have an account?&nbsp;
+            <a class="nav-link" routerLink="/signin" routerLinkActive="active">Sign In</a>
+        </p>
     </div>
 </div>

@@ -22,7 +22,7 @@
   margin-top: 20px;
 }
 
-  .btn-signin {
+.btn-signin {
     border-radius: 50px;
     background-color: #1ed760;
     border: none;
@@ -34,44 +34,4 @@
   .btn-signin:hover {
     background-color: #1db954;
   }
-  
-.form-control {
-    border-radius: 0px;
-    border: 1px solid #444;
-    background-color: transparent !important;
-    color: white !important;
-    padding: 10px;
-}
-
-input.form-control::placeholder {
-    color: #888;
-}
-
-input.form-control:focus {
-    border-color: #1ed760;
-    outline: none;
-    background-color: transparent !important;
-}
-
-p{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p a{
-  color: white;
-  text-decoration: underline;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p a:hover{
-  color: #1ed760;
-}
-
-
   

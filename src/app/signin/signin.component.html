@@ -4,13 +4,20 @@
     <form>
       <div class="mb-3">
         <label for="email" class="form-label text-white">Email Address</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        <input type="email" [(ngModel)]="loginModel.email" class="form-control" id="email" placeholder="Enter email">
       </div>
       <div class="mb-3">
         <label for="password" class="form-label text-white">Password</label>
-        <input type="password" class="form-control" id="password" placeholder="Enter password">
+        <input type="password" [(ngModel)]="loginModel.password" class="form-control" id="password" placeholder="Enter password">
       </div>
-      <button type="submit" class="btn btn-signin w-100">Sign In</button>
+      <button type="submit" (click)="login()" class="btn btn-signin w-100">Sign In</button>
+
+      <p>
+        <a class="nav-link" routerLink="/fpass" routerLinkActive="active">Forgot your password</a>
+      </p>
+      <p>Don't have an account?&nbsp;
+          <a class="nav-link" routerLink="/signup" routerLinkActive="active">Sign Up</a>
+      </p>
     </form>
   </div>
 </div>

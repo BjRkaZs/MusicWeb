@@ -1,0 +1,71 @@
+/* keresősáv */
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid #b0b0b0;
+}
+
+/* Input mező */
+.search-container .searchbar {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #b0b0b0;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Placeholder színe */
+.search-container .searchbar::placeholder {
+    color: #b0b0b0;
+    opacity: 0.8;
+}
+
+/* Ha rákattintasz */
+.search-container .searchbar:hover,
+.search-container .searchbar:focus {
+    border-color: white;
+    color: white;
+}
+
+/* Kereső ikon */
+.search-icon {
+    background-color: transparent;
+    color: #b0b0b0;
+    border: none;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* Ha rávisszük az egeret */
+.search-icon:hover {
+    color: white;
+}
+
+/* Zsugorított állapot */
+.search-container.shrink {
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* Zsugorított input */
+.search-container.shrink .searchbar {
+    font-size: 16px;
+    padding: 6px;
+}
