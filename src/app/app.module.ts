@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { FpassComponent } from './fpass/fpass.component';
 import { FormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
+import { UserListComponent } from './user-list/user-list.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { provideHttpClient } from '@angular/common/http';
     SigninComponent,
     SignupComponent,
     HomeComponent,
-    FpassComponent
+    FpassComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,

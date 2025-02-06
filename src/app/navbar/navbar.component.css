@@ -1,5 +1,6 @@
 .navbar-nav, .navbar-toggler, .navbar-collapse {
     padding: 0 20px;
+    font-size: 20px;
 }
 
 ul {
@@ -18,12 +19,41 @@ li {
     color: #b0b0b0;
     border: none;
     transition: color 0.3s ease;
-    font-size: 1.5rem;
+    font-size: 2.8rem;
     padding-left: 40px;
 }
 
 .house-icon:hover {
     color: white;
+}
+
+
+
+.nav-link {
+    color: #b0b0b0 !important;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #b0b0b0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white !important;
 }
 
 
@@ -59,31 +89,3 @@ li {
     color: white;
 }
  */
-
-
-.nav-link {
-    color: #b0b0b0 !important;
-    margin-right: 15px;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: white !important;
-}
-
-
-
-.navbar .dropdown-menu {
-    background-color: #343a40;
-    border: none;
-}
-
-.navbar .dropdown-item {
-    color: #b0b0b0 !important;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navbar .dropdown-item:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white !important;
-}

@@ -57,10 +57,10 @@
 
 /* Zsugorított állapot */
 .search-container.shrink {
-    top: 20px;
+    top: 130px;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
 }
 

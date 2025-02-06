@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class AuthService {
 
-  private apiUrl = 'http://127.0.0.1:8000/api';
+  private apiUrl = 'https://67a543fac0ac39787a1de244.mockapi.io/mockapi/music/';
   private token = ""
   private user:any={}
   private userSub = new BehaviorSubject(null)
@@ -53,7 +53,7 @@ export class AuthService {
   //   this.http.post(this.apiUrl + "/Authorization/register", user)
   //   .subscribe({
   //     next:()=>console.log("Success"),
-  //     error:()=>console.log("Unsucces")
+  //     error:()=>console.log("Fail")
   //   })
   // }
 

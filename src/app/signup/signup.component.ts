@@ -17,7 +17,7 @@ export class SignupComponent {
       },
       error: (error) => {
         console.error("Registration failed", error);
-        alert("Registration failed: " + (error.error?.message || "Unknown error"));
+        alert("Registration failed");
       }
     });
   }
